@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure html and body take up the full height */
+    overflow: hidden; /* Prevent scrolling */
+    background-color: #F4F4F9;
+
+}
+  
+  
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: azure;
+    text-align: center;
+    padding: 1rem 0;
+}
+  
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+
+}
+  
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0.5rem 0 ;
+}
+
+.form-container form {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5); 
+
+}
+form button {
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+    width: 50%;
+    margin: 0px auto;
+    background-color: rgb(59, 130, 246);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+form button:active {
+    background-color: rgb(41, 88, 165);
+}
+  
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.input-container label {
+    color: black;
+}
+  
+.input-container input{
+    width: 100%;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+}
